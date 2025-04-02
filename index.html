@@ -5,12 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MOVYO | CAR RENTAL</title>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="src/page-css/home.css" />
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
   </head>
   <body>
     <div id="header"></div>
+    <section class="h-[70vh] bg-cover bg-center hero-banner">
+      <div
+        class="flex px-primary flex-col overlay items-center justify-end h-full text-center px-6"
+      >
+        <div id="search-bar"></div>
+        <p class="text-lg md:text-xl text-gray-200 mt-4 max-w-2xl">
+          Premium Car Rentals & Leasing in the UAE. Drive the car of your dreams
+          today!
+        </p>
+        <div class="my-2 max-w-2xl w-full flex justify-center gap-3">
+          <a
+            href="/"
+            class="bg-blue-500 text-white px-4 py-2 text-sm font-medium rounded-full hover:bg-blue-600 transition"
+          >
+            Explore Cars
+          </a>
+          <a
+            href="#"
+            class="bg-gray-800 text-white px-4 py-2 text-sm font-medium rounded-full hover:bg-gray-900 transition"
+          >
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </section>
+    <div class="px-primary flex flex-col justify-center items-center my-4">
+      <h1 class="text-3xl md:text-4xl font-bold text-black">
+        Experience Luxury with Movyo Car
+      </h1>
+      <p class="text-lg md:text-xl font-bold text-black">
+        Rent just about any car, just about anywhere
+      </p>
+    </div>
     <div id="footer"></div>
   </body>
 
   <script type="module" src="main.js"></script>
+  <script type="module" src="src/page-js/home.js"></script>
 </html>
