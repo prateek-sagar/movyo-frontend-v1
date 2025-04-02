@@ -14,7 +14,7 @@ export default function header() {
                         <i data-lucide="home" class="w-5 h-5 mr-1"></i> Home
                         <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                     </a>
-                    <a href="/about-us/" class="text-gray-700 uppercase font-semibold hover:text-blue-600 flex items-center relative group">
+                    <a href="/about-us/index.html" class="text-gray-700 uppercase font-semibold hover:text-blue-600 flex items-center relative group">
                         <i data-lucide="info" class="w-5 h-5 mr-1"></i> About
                         <span class="absolute left-0 bottom-0 w-0 h-[2px] bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                     </a>
